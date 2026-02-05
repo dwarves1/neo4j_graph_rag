@@ -27,3 +27,13 @@ uv add langchain-neo4j
 # 추가 필요한 패키지들 (예시)
 uv add python-dotenv langchain langchain-openai langchain-google-genai
 
+#### 4. git 설정
+git config --global user.name "본인영문이름"
+git config --global user.email "본인이메일@example.com"
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/계정명/저장소명.git
+git push -u origin main
